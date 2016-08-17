@@ -18,4 +18,4 @@ watch: all
 	@echo [watch]
 	@$(BIN)/chokidar 'client/**/*.js' -c 'make all'
 
-all: main compile-front lint
+all: main compile-front
